@@ -30,7 +30,7 @@ export default function RootLayout({
           <aside className="w-64 bg-white dark:bg-zinc-900 p-4 border-r border-zinc-200 dark:border-zinc-800 hidden md:block">
             <CurriculumNav />
           </aside>
-          <main className="flex-1">{children}</main>
+          <main className="flex-1 p-6 md:p-12">{children}</main>
         </div>
       </body>
     </html>
