@@ -1,12 +1,73 @@
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+}
 
 @import "tailwindcss";
 
 :root {
   --bsa-blue: #003f87;
+  --bsa-blue-light: #b3c6e7;
   --bsa-red: #ce1226;
   --background: var(--bsa-blue);
   --foreground: #ffffff;
 }
+
+.flashcard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+.flashcard {
+  background: var(--foreground);
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 2rem 1rem;
+  cursor: pointer;
+  transition: transform 0.1s;
+  text-align: center;
+}
+.flashcard:hover {
+  transform: translateY(-4px) scale(1.03);
+}
+.flashcard-title {
+  color: var(--bsa-red);
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.modal-content {
+  background: #fff;
+  color: var(--bsa-blue);
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 400px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+  font-family: var(--font-roboto-slab), serif;
+}
+.modal-close {
+  background: var(--bsa-red);
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
 
 
 
