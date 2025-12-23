@@ -1,9 +1,30 @@
+import StepNav from "../components/StepNav";
+import Image from "next/image";
+
 export default function PracticalApplicationPage() {
   return (
-    <main>
-      <h1>Practical Application</h1>
-      <p>Project or lesson plan options and examples of clear instructions.</p>
-      {/* Add project ideas or lesson plan templates here */}
-    </main>
+      <div className="relative min-h-screen">
+        {/* Background Image */}
+        <Image 
+          src="/images/ai-workers.jpg" 
+          alt="AI Workers" 
+          fill
+          className="absolute inset-0 object-cover z-0"
+        />
+        
+        {/* Overlay for better text readability */}
+        <div className="absolute inset-0 bg-opacity-50 z-1000 max-w-7xl">
+
+          {/* Content overlay */}
+          <div className="relative z-20 p-8 bg-filter backdrop-blur-sm rounded-lg" >
+            <h1 className="font-bold mb-4 color-white">Practical Application</h1>
+            <p className="mb-6">Project or lesson plan options and examples of clear instructions.</p>
+            {/* Add project ideas or lesson plan templates here */}
+            
+            <StepNav />
+          </div>
+        </div>
+        
+      </div>
   );
 }

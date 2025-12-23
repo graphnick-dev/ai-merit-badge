@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -21,7 +22,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <aside className="w-64 bg-white dark:bg-zinc-900 p-4 border-r border-zinc-200 dark:border-zinc-800 hidden md:block">
             <CurriculumNav />
           </aside>
-          <main className="flex-1 p-6 md:p-12">{children}</main>
+          <main className="flex-1">
+            {children}</main>
         </div>
       </body>
     </html>
