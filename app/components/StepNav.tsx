@@ -19,33 +19,51 @@ export default function StepNav() {
     }
   });
 
-  // Fallback to section root if not on a step
-  if (sectionIdx !== -1 && stepIdx === -1 && curriculum[sectionIdx].steps?.length) {
-    stepIdx = 0;
-  }
-
   function goToStep(sIdx: number, stIdx: number) {
     const path = curriculum[sIdx].steps[stIdx].path;
     router.push(path);
   }
 
   function handleBack() {
-    if (sectionIdx === -1 || stepIdx === -1) return;
-    if (stepIdx > 0) {
-      goToStep(sectionIdx, stepIdx - 1);
-    } else if (sectionIdx > 0) {
-      const prevSection = curriculum[sectionIdx - 1];
-      goToStep(sectionIdx - 1, prevSection.steps.length - 1);
+    if (sectionIdx === -1) return;
+    
+    // If we're on a subsection (stepIdx >= 0)
+    if (stepIdx >= 0) {
+      if (stepIdx > 0) {
+        // Go to previous step in current section
+        goToStep(sectionIdx, stepIdx - 1);
+      } else {
+        // Currently on first step of section, go to current section's root
+        const currentSection = curriculum[sectionIdx];
+        router.push(currentSection.path);
+      }
+    } else {
+      // Currently on a section root, go to previous section's last step
+      if (sectionIdx > 0) {
+        const prevSection = curriculum[sectionIdx - 1];
+        goToStep(sectionIdx - 1, prevSection.steps.length - 1);
+      }
     }
   }
 
   function handleNext() {
-    if (sectionIdx === -1 || stepIdx === -1) return;
-    const section = curriculum[sectionIdx];
-    if (stepIdx < section.steps.length - 1) {
-      goToStep(sectionIdx, stepIdx + 1);
-    } else if (sectionIdx < curriculum.length - 1) {
-      goToStep(sectionIdx + 1, 0);
+    if (sectionIdx === -1) return;
+    
+    if (stepIdx === -1) {
+      // Currently on section root, go to first step of current section
+      if (curriculum[sectionIdx].steps?.length > 0) {
+        goToStep(sectionIdx, 0);
+      }
+    } else {
+      // Currently on a subsection
+      const section = curriculum[sectionIdx];
+      if (stepIdx < section.steps.length - 1) {
+        goToStep(sectionIdx, stepIdx + 1);
+      } else if (sectionIdx < curriculum.length - 1) {
+        // Go to the next section's root page
+        const nextSection = curriculum[sectionIdx + 1];
+        router.push(nextSection.path);
+      }
     }
   }
 

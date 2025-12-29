@@ -36,7 +36,7 @@ export const curriculum = [
     steps: [
       { title: "Ethical Concerns", path: "/ethics/concerns" },
       { title: "Turing Test", path: "/ethics/turing-test" },
-      { title: "What Would You Do?", path: "/ethics/wwyd" },
+      { title: "Guidelines", path: "/ethics/guidelines" },
     ],
   },
   {

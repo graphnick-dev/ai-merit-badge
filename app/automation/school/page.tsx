@@ -22,7 +22,7 @@ export default function SchoolPage() {
             <h2 className="font-bold mb-4 color-white">At School</h2>
             <p className="mb-6">What are some examples of automation at school?</p>
 
-              <ul className="space-y-4 mt-16">
+              <ul className="space-y-12 mt-16">
                 <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-white/20" delay={0}>
                   <strong>School Bell Systems:</strong> Automated bells that ring at scheduled times throughout the day to signal class changes, lunch, and dismissal without manual operation.
                 </AnimatedListItem>

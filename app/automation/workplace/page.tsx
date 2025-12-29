@@ -22,7 +22,7 @@ export default function WorkplacePage() {
             <h2 className="font-bold mb-4 color-white">In the Workplace</h2>
             <p className="mb-6">What are some examples of automation in the workplace?</p>
             {/* Add brainstorming or quiz components here */}
-            <ul className="space-y-4 mt-16">
+            <ul className="space-y-12 mt-16">
                 <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-white/20" delay={0}>
                   <strong>Assembly Line Conveyor Belts:</strong> Automated moving belts in factories that transport products through different stages of manufacturing without human operation.
                 </AnimatedListItem>

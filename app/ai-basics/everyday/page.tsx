@@ -22,7 +22,7 @@ export default function EverydayPage() {
             <h2 className="font-bold mb-4 color-white">In Daily Life</h2>
             <p className="mb-6">What are some examples of AI and automation in everyday life?</p>
             {/* Add brainstorming or quiz components here */}
-             <ul className="space-y-4 mt-16">
+             <ul className="space-y-12 mt-16">
                 <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-white/20" delay={0}>
                   <strong>Smart Assistants:</strong> Siri, Alexa, and Google Assistant help answer questions, play music, set timers, and control smart home devices just by talking to them.
                 </AnimatedListItem>

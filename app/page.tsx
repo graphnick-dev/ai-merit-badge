@@ -20,7 +20,7 @@ export default function Home() {
           <h1 className="text-5xl font-bold mb-6 color-white"><span>AI Merit Badge</span> <Image src='/images/ai-badge.webp' alt="AI Merit Badge" className='inline' width={150} height={150} /></h1>
           <h2 className="text-2xl font-bold mb-4 color-white">Introduction & Overview</h2>
           
-          <div className="mb-8 space-y-4">
+          <div className="mb-8 space-y-12">
             <p className="text-lg">Welcome to the Artificial Intelligence Merit Badge curriculum!</p>
             
             <div className="bg-opacity-10 p-6 rounded-lg">
