@@ -50,17 +50,17 @@ export default function StepNav() {
   }
 
   return (
-    <div className="flex mt-8 gap-4">
+    <div className="flex mt-24 gap-4">
       <button
         onClick={handleBack}
-        className="px-4 py-2 bg-blue-400 rounded disabled:opacity-50 hover:bg-blue-500 cursor-pointer disabled:cursor-not-allowed transition-colors"
+        className=" px-4 py-2 bg-blue-400 rounded disabled:opacity-50 hover:bg-blue-500 cursor-pointer disabled:cursor-not-allowed transition-colors text-sm"
         disabled={sectionIdx === 0 && stepIdx === 0}
       >
         Back
       </button>
       <button
         onClick={handleNext}
-        className="px-4 py-2 bg-blue-600 text-white rounded disabled:opacity-50 hover:bg-blue-700 cursor-pointer disabled:cursor-not-allowed transition-colors"
+        className="px-4 py-2 bg-blue-600 text-white rounded disabled:opacity-50 hover:bg-blue-700 cursor-pointer disabled:cursor-not-allowed transition-colors text-sm"
         disabled={sectionIdx === curriculum.length - 1 && stepIdx === curriculum[sectionIdx].steps.length - 1}
       >
         Next

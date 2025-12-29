@@ -16,10 +16,10 @@ export default function AiAutomationPage() {
         <div className="absolute inset-0 bg-opacity-50 z-1000 max-w-7xl">
 
           {/* Content overlay */}
-          <div className="relative z-20 p-8 bg-filter backdrop-blur-sm rounded-lg" >
-            <h1 className="font-bold mb-4 color-white">AI & Automation in Daily Life</h1>
-            <p className="mb-6">Examples and discussion of AI and automation in everyday life, workplace, and school.</p>
-            {/* Add brainstorming or quiz components here */}
+          <div className="relative z-20 p-8 rounded-lg" >
+            <h1 className="font-bold mb-4 color-white">Automation</h1>
+            <p className="mb-6">What is Automation?</p>
+            
             
             <StepNav />
           </div>

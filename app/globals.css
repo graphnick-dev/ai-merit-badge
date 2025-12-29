@@ -1,31 +1,48 @@
 @import "tailwindcss";
 
-body {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Slab', serif;
-  color: var(--bsa-blue);
-}
-
-
 :root {
   --bsa-blue: #003f87;
   --bsa-blue-light: #b3c6e7;
   --bsa-red: #ce1226;
-  --background: var(--bsa-blue);
+  --background: #c96744;
   --foreground: #ffffff;
+
 }
 
-main {
-  font-size: 36px;
+@media (prefers-color-scheme: dark) {
+  :root {
+    body {
+      --background: #c96744;
+    }
+  }
 }
 
 body {
-  background: var(--background);
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  max-height: 100dvh;
+  overflow: hidden;
+  font-size: 36px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+  color: #131313;
+}
+
+h2 {
+  color: white;
+  font-size: .7em;
+}
+
+.content-overlay {
+  overflow-y: auto;
 }
 
 
@@ -37,7 +54,8 @@ body {
 .flashcard {
   background: var(--foreground);
   border-radius: 1rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  line-height: 1.2;
   padding: 2rem 1rem;
   cursor: pointer;
   transition: transform 0.1s;
@@ -50,6 +68,8 @@ body {
   color: var(--bsa-red);
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
+  font-size: .7em;
+  line-height: 1.3;
 }
 .modal-overlay {
   position: fixed;
@@ -59,7 +79,56 @@ body {
   align-items: center;
   justify-content: center;
   z-index: 1000;
+  animation: fadeIn 0.2s ease-out;
 }
+
+.modal-title {
+  font-size: 1.6em;
+  color: var(--bsa-red);
+  background: var(--bsa-blue-light);
+  padding-left: .6rem
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes scaleOut {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
 .modal-content {
   background: #fff;
   color: var(--bsa-blue);
@@ -68,6 +137,24 @@ body {
   max-width: 80vw;
   box-shadow: 0 4px 24px rgba(0,0,0,0.15);
   font-family: var(--font-roboto-slab), serif;
+  animation: scaleIn 0.3s ease-out;
+  transform-origin: center;
+}
+
+.modal-overlay-closing {
+  animation: fadeOut 0.2s ease-out forwards;
+}
+
+.modal-content-closing {
+  animation: scaleOut 0.3s ease-out forwards;
+}
+
+.ai-merit-badge-title {
+  transition: color 0.2s ease-in-out;
+}
+
+.ai-merit-badge-title:hover {
+  color: var(--bsa-blue) !important;
 }
 .modal-close {
   background: var(--bsa-red);
@@ -81,19 +168,23 @@ body {
 }
 
 
-
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 .bsa-section-white {
   background: #fff;
   color: var(--bsa-blue);
 }
 .bsa-section-white h1, .bsa-section-white h2, .bsa-section-white h3, .bsa-section-white h4, .bsa-section-white h5, .bsa-section-white h6 {
   color: var(--bsa-blue);
+}
+
+/* BSA Color Utilities */
+.bg-bsa-red {
+  background-color: var(--bsa-red);
+}
+
+.bg-bsa-red:hover {
+  background-color: #a20e1f; /* Darker shade of BSA red for hover */
+}
+
+.border-bsa-red {
+  border-color: var(--bsa-red);
 }

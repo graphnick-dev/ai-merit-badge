@@ -9,20 +9,25 @@ export const curriculum = [
     ],
   },
   {
-    title: "AI & Automation in Daily Life",
-    path: "/ai-automation",
+    title: "Automation",
+    path: "/automation",
     steps: [
-      { title: "Everyday Life", path: "/ai-automation/everyday" },
-      { title: "Workplace", path: "/ai-automation/workplace" },
-      { title: "School", path: "/ai-automation/school" },
+      { title: "Tasks", path: "/automation/tasks" },
+      { title: "Everyday Life", path: "/automation/everyday" },
+      { title: "Workplace", path: "/automation/workplace" },
+      { title: "School", path: "/automation/school" },
+      { title: "Timeline", path: "/automation/timeline" },
     ],
   },
-  {
-    title: "Timelines",
-    path: "/timelines",
+    {
+    title: "AI in Daily Life",
+    path: "/ai-basics",
     steps: [
-      { title: "AI Milestones", path: "/timelines/ai" },
-      { title: "Automation Milestones", path: "/timelines/automation" },
+      { title: "Everyday Life", path: "/ai-basics/everyday" },
+      { title: "Workplace", path: "/ai-basics/workplace" },
+      { title: "School", path: "/ai-basics/school" },
+      { title: "Quiz", path: "/ai-basics/quiz" },
+      { title: "Timeline", path: "/ai-basics/timeline" },
     ],
   },
   {

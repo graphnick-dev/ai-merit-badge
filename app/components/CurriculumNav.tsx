@@ -8,6 +8,11 @@ export default function CurriculumNav({ currentStep }: { currentStep?: string })
   return (
     <nav className="mb-8">
       <ul className="flex flex-col gap-2">
+        <li className="mb-4">
+          <Link href="/" className="text-2xl font-bold text-gray-900 dark:text-white ai-merit-badge-title">
+            AI Merit Badge
+          </Link>
+        </li>
         {curriculum.map((section, idx) => (
           <li key={section.path}>
             <Link
