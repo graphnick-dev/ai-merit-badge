@@ -6,8 +6,8 @@ export default function AiAutomationPage() {
       <div className="relative min-h-screen">
         {/* Background Image */}
         <Image 
-          src="/images/ai-workers.jpg" 
-          alt="AI Workers" 
+          src="/images/automation.jpg" 
+          alt="Automation" 
           fill
           className="absolute inset-0 object-cover z-0"
         />
