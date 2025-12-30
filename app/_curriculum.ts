@@ -43,8 +43,7 @@ export const curriculum = [
     title: "Deepfakes",
     path: "/deepfakes",
     steps: [
-      { title: "What is a Deepfake?", path: "/deepfakes/what-is" },
-      { title: "What to Do?", path: "/deepfakes/what-to-do" },
+      { title: "Examples of Deepfakes", path: "/deepfakes/examples" }
     ],
   },
   {
@@ -52,15 +51,14 @@ export const curriculum = [
     path: "/communicating",
     steps: [
       { title: "Prompt Engineering", path: "/communicating/prompts" },
-      { title: "Examples", path: "/communicating/examples" },
     ],
   },
   {
     title: "Practical Application",
     path: "/practical-application",
     steps: [
-      { title: "Project Ideas", path: "/practical-application/projects" },
-      { title: "Lesson Plan", path: "/practical-application/lesson" },
+      { title: "Project Ideas", path: "/practical-application/project-ideas" },
+      { title: "Lesson Plan", path: "/practical-application/lesson-plan" },
     ],
   },
   {
@@ -68,15 +66,6 @@ export const curriculum = [
     path: "/careers",
     steps: [
       { title: "Career Paths", path: "/careers/paths" },
-      { title: "Research", path: "/careers/research" },
     ],
-  },
-  {
-    title: "Wrap-up & Next Steps",
-    path: "/wrap-up",
-    steps: [
-      { title: "Summary", path: "/wrap-up/summary" },
-      { title: "Q&A", path: "/wrap-up/qa" },
-    ],
-  },
+  }
 ];

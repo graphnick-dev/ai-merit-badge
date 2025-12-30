@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { curriculum } from "../_curriculum";
 
@@ -10,7 +11,7 @@ export default function CurriculumNav({ currentStep }: { currentStep?: string })
       <ul className="flex flex-col gap-2">
         <li className="mb-4">
           <Link href="/" className="text-2xl font-bold text-gray-900 dark:text-white ai-merit-badge-title">
-            AI Merit Badge
+            AI Merit Badge  <Image src='/images/ai-badge.webp' alt="AI Merit Badge" className='inline' width={40} height={40} />
           </Link>
         </li>
         {curriculum.map((section, idx) => (

@@ -20,7 +20,7 @@ export default function SchoolPage() {
           <div className="relative z-20 p-8 rounded-lg" >
             <h1 className="font-bold mb-4 color-white">AI & Automation</h1>
             <h2 className="font-bold mb-4 color-white">At School</h2>
-            <p className="mb-6">What are some examples of AI and automation at school?</p>
+            <p className="mb-64">What are some examples of AI and automation at school?</p>
 
               <ul className="space-y-12 mt-16">
                 <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-white/20" delay={0}>

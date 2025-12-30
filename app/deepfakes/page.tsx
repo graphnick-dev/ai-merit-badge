@@ -18,7 +18,7 @@ export default function DeepfakesPage() {
           {/* Content overlay */}
           <div className="relative z-20 p-8 bg-filter backdrop-blur-sm rounded-lg" >
             <h1 className="font-bold mb-4 color-white">Deepfakes</h1>
-            <p className="mb-6">Learn about deepfakes, their impact, and what to do if affected.</p>
+            <p className="mb-6">What is a deepfake and why does it matter?</p>
             {/* Add video examples or safety tips here */}
             
             <StepNav />

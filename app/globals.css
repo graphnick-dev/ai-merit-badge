@@ -60,6 +60,8 @@ h2 {
   cursor: pointer;
   transition: transform 0.1s;
   text-align: center;
+  display: grid;
+  place-content: center;
 }
 .flashcard:hover {
   transform: translateY(-4px) scale(1.03);
@@ -85,7 +87,6 @@ h2 {
 .modal-title {
   font-size: 1.6em;
   color: var(--bsa-red);
-  background: var(--bsa-blue-light);
   padding-left: .6rem
 }
 
@@ -150,11 +151,12 @@ h2 {
 }
 
 .ai-merit-badge-title {
+  cursor: pointer;
   transition: color 0.2s ease-in-out;
 }
 
 .ai-merit-badge-title:hover {
-  color: var(--bsa-blue) !important;
+  color: #ccd16b !important;
 }
 .modal-close {
   background: var(--bsa-red);

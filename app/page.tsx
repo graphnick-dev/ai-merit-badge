@@ -23,9 +23,9 @@ export default function Home() {
           <div className="mb-8 space-y-12">
             <p className="text-lg">Welcome to the Artificial Intelligence Merit Badge curriculum!</p>
             
-            <div className="bg-opacity-10 p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-3">Session Goals:</h3>
-              <ul className="space-y-2 list-disc list-inside">
+            <div className="bg-opacity-10 rounded-lg">
+              <h3 className="text-xl font-bold mt-8 mb-4">Session Goals:</h3>
+              <ul className="space-y-2 list-disc ml-12">
                 <li>Learn what AI is and why it matters in today&apos;s world</li>
                 <li>Understand key concepts and terminology</li>
                 <li>Explore AI and automation in daily life</li>

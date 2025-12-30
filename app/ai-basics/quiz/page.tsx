@@ -85,11 +85,11 @@ export default function AIOrNotQuizPage() {
           {/* Content overlay */}
           <div className="relative z-20 p-8 rounded-lg" >
             <h1 className="font-bold mb-4 color-white">AI or Not?</h1>
-            <p className="mb-6">Determine which of the following technologies use AI or not. Click on your answer for each item!</p>
+            <p className="mb-64">Determine which of the following technologies use AI or not. Click on your answer for each item!</p>
             
 
             {/* Quiz Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+            <div className="grid gap-42 mt-6">
               {quizItems.map((item, index) => (
                 <AIOrNotCard
                   key={index}

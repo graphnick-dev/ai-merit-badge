@@ -19,7 +19,9 @@ export default function CommunicatingPage() {
           <div className="relative z-20 p-8 bg-filter backdrop-blur-sm rounded-lg" >
             <h1 className="font-bold mb-4 color-white">Communicating with AI</h1>
             <p className="mb-6">How to interact with AI, prompt engineering, and writing clear instructions.</p>
-            {/* Add prompt engineering demos here */}
+
+            <p className="mb-6">Don't treat it as a Google search, or a magic genie.</p>
+            <p className="mb-6">Lets play with writing prompts.</p>
             
             <StepNav />
           </div>
