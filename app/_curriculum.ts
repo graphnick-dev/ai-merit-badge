@@ -4,7 +4,6 @@ export const curriculum = [
     title: "Key Concepts",
     path: "/key-concepts",
     steps: [
-      { title: "Definitions", path: "/key-concepts/definitions" },
       { title: "Flashcards", path: "/key-concepts/flashcards" },
     ],
   },
@@ -20,7 +19,7 @@ export const curriculum = [
     ],
   },
     {
-    title: "AI in Daily Life",
+    title: "Artificial Intelligence",
     path: "/ai-basics",
     steps: [
       { title: "Everyday Life", path: "/ai-basics/everyday" },

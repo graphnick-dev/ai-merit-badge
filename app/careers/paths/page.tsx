@@ -7,8 +7,8 @@ export default function CareerPathsPage() {
       <div className="relative min-h-screen">
         {/* Background Image */}
         <Image 
-          src="/images/ai-workers.jpg" 
-          alt="AI Workers" 
+          src="/images/careers.jpg" 
+          alt="Careers" 
           fill
           className="absolute inset-0 object-cover z-0"
         />
@@ -33,13 +33,13 @@ export default function CareerPathsPage() {
               </p>
             </div>
 
-            <p className="mb-6">Let&rsquo;s discover the many ways AI is creating new career opportunities and changing existing jobs.</p>
+            <p className="mb-132">Let&rsquo;s discover the many ways AI is creating new career opportunities and changing existing jobs.</p>
 
             {/* AI is Everywhere */}
-            <div className="mb-8">
-              <h3 className="text-xl font-semibold mb-4 color-white">AI is Already in Many Jobs</h3>
+            <div className="mb-132">
               <ul className="space-y-12 list-none">
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] bg-green-100 rounded-lg text-black" delay={0}>
+                  <h3 className="text-xl font-semibold mb-4">AI is Already in Many Jobs</h3>
                   <strong>Office Workers:</strong> People in offices use AI to write emails faster, create presentations, analyze data, and schedule meetings. AI helps them be more productive and focus on creative problem-solving.
                 </AnimatedListItem>
                 <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.1}>
@@ -55,10 +55,10 @@ export default function CareerPathsPage() {
             </div>
 
             {/* New AI-Specific Careers */}
-            <div className="mb-8">
-              <h3 className="text-xl font-semibold mb-4 color-white">Careers Built Around AI</h3>
+            <div className="mb-132">
               <ul className="space-y-12 list-none">
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.4}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] bg-green-200 rounded-lg text-black" delay={0.4}>
+              <h3 className="text-xl font-semibold mb-4 color-white">Careers Built Around AI</h3>
                   <strong>AI Engineer/Programmer:</strong> These are the people who actually build AI systems. They write the code that teaches computers how to think and learn. It&rsquo;s like being an architect, but for digital brains!
                 </AnimatedListItem>
                 <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.5}>
@@ -77,10 +77,10 @@ export default function CareerPathsPage() {
             </div>
 
             {/* Creative and Communication Careers */}
-            <div className="mb-8">
-              <h3 className="text-xl font-semibold mb-4 color-white">Creative Careers Using AI</h3>
+            <div className="mb-132">
               <ul className="space-y-12 list-none">
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.9}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] bg-green-200 rounded-lg text-black" delay={0.9}>
+                  <h3 className="text-xl font-semibold mb-4 color-white">Creative Careers Using AI</h3>
                   <strong>AI Content Creator:</strong> These creative professionals use AI to help make videos, write stories, design graphics, and create music. They blend human creativity with AI&rsquo;s speed and capabilities.
                 </AnimatedListItem>
                 <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.0}>
@@ -93,15 +93,15 @@ export default function CareerPathsPage() {
             </div>
 
             {/* Skills for AI Careers */}
-            <div className="mb-8">
-              <h3 className="text-xl font-semibold mb-4 color-white">Skills That Matter for AI Careers</h3>
-              <div className="mb-6 p-4 bg-blue-100 rounded-lg">
-                <p className="text-gray-800 font-medium">
+            <div className="mb-32">
+              <div className="mb-32 p-4 bg-blue-100 rounded-lg max-w-[45ch]">
+                <p className="text-gray-800 font-medium ">
                   You don&rsquo;t have to be a math genius to work with AI—many different skills are valuable!
                 </p>
               </div>
               <ul className="space-y-12 list-none">
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.2}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] bg-green-200 rounded-lg text-black" delay={1.2}>
+              <h3 className="text-xl font-semibold mb-4">Skills That Matter for AI Careers</h3>
                   <strong>Problem-Solving:</strong> Being able to break big problems into smaller pieces and think of creative solutions is super valuable in AI work.
                 </AnimatedListItem>
                 <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.3}>
@@ -117,10 +117,10 @@ export default function CareerPathsPage() {
             </div>
 
             {/* Getting Started */}
-            <div className="mb-8">
-              <h3 className="text-xl font-semibold mb-4 color-white">How to Prepare for AI Careers</h3>
+            <div className="mb-132">
               <ul className="space-y-12 list-none">
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.6}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] bg-green-200 rounded-lg text-black" delay={1.6}>
+                  <h3 className="text-xl font-semibold mb-4">How to Prepare for AI Careers</h3>
                   <strong>Stay Curious:</strong> Use AI tools like ChatGPT, experiment with AI art generators, and try programming games like Scratch to understand how technology works.
                 </AnimatedListItem>
                 <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.7}>
@@ -136,7 +136,7 @@ export default function CareerPathsPage() {
             </div>
 
             {/* Practice Activity */}
-            <div className="mb-8 p-6 bg-white bg-opacity-90 rounded-lg">
+            <div className="mb-32 p-6 bg-white bg-opacity-90 rounded-lg">
               <h3 className="text-xl font-semibold mb-3" style={{ color: 'var(--bsa-red)' }}>
                 Career Exploration Activity:
               </h3>

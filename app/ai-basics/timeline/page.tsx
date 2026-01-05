@@ -53,8 +53,8 @@ export default function AITimelinePage() {
       <div className="relative min-h-screen">
         {/* Background Image */}
         <Image 
-          src="/images/ai-workers.jpg" 
-          alt="AI Workers" 
+          src="/images/life.jpg" 
+          alt="Life" 
           fill
           className="absolute inset-0 object-cover z-0"
         />
@@ -74,7 +74,7 @@ export default function AITimelinePage() {
             />
 
             {/* Timeline Summary */}
-            <div className="mt-8 p-6 bg-white bg-opacity-90 rounded-lg">
+            <div className="mt-64 p-6 bg-white bg-opacity-90 rounded-lg">
               <h3 className="text-xl font-semibold mb-3" style={{ color: 'var(--bsa-red)' }}>
                 AI Timeline Reflection:
               </h3>

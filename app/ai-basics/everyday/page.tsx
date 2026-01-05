@@ -7,8 +7,8 @@ export default function EverydayPage() {
       <div className="relative min-h-screen">
         {/* Background Image */}
         <Image 
-          src="/images/ai-workers.jpg" 
-          alt="AI Workers" 
+          src="/images/life.jpg" 
+          alt="Life" 
           fill
           className="absolute inset-0 object-cover z-0"
         />
@@ -20,7 +20,7 @@ export default function EverydayPage() {
           <div className="relative z-20 p-8 rounded-lg" >
             <h1 className="font-bold mb-4 color-white">AI & Automation</h1>
             <h2 className="font-bold mb-4 color-white">In Daily Life</h2>
-            <p className="mb-64">What are some examples of AI and automation in everyday life?</p>
+            <p className="mb-164">What are some examples of AI and automation in everyday life?</p>
             {/* Add brainstorming or quiz components here */}
              <ul className="space-y-12 mt-16">
                 <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-white/20" delay={0}>

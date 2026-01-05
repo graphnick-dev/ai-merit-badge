@@ -72,7 +72,7 @@ export default function StepNav() {
       <button
         onClick={handleBack}
         className=" px-4 py-2 bg-blue-400 rounded disabled:opacity-50 hover:bg-blue-500 cursor-pointer disabled:cursor-not-allowed transition-colors text-sm"
-        disabled={sectionIdx === 0 && stepIdx === 0}
+        disabled={sectionIdx === 0 && stepIdx === -1}
       >
         Back
       </button>

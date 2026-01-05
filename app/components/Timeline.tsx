@@ -30,7 +30,7 @@ export default function Timeline({ title, items }: TimelineProps) {
 
   return (
     <div className="mb-12">
-      <h2 className="text-2xl font-semibold mb-6 color-white">{title}</h2>
+      <h2 className="text-2xl font-semibold mb-6 text-white">{title}</h2>
       
       {/* Horizontal Scrolling Timeline */}
       <div className="overflow-x-auto pb-4">
@@ -39,19 +39,19 @@ export default function Timeline({ title, items }: TimelineProps) {
           {items.map((item, index) => (
             <div key={item.year} className="flex flex-col items-center relative">
               {/* Timeline Line Connector */}
-              <div className={`w-full h-1 ${generateGradientLine(index, item)} mb-4 mt-16`}></div>
+              <div className={`w-full h-4 ${generateGradientLine(index, item)} mt-16`}></div>
               
               {/* Year Circle - Positioned over the line */}
-              <div className={`w-16 h-16 bg-${item.color}-600 rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg absolute top-0 left-1/2 transform -translate-x-1/2 translate-y-8 z-30`}>
+              <div className={`w-16 h-16 bg-${item.color}-600 rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg absolute top-0 left-1/2 transform -translate-x-1/2 translate-y-10 z-30`}>
                 {item.year}
               </div>
               
               {/* Content Card */}
-              <div className="bg-white/20 backdrop-blur-sm rounded-none p-6 w-full mx-4 flex flex-col min-w-[300px] h-full">
-                <h3 className="text-lg font-semibold mb-3 text-center" style={{ color: 'var(--bsa-red)' }}>
+              <div className="bg-white rounded-none p-6 w-full mx-4 flex flex-col min-w-[300px] h-full">
+                <h3 className="mt-8 text-lg font-semibold mb-3 text-center" style={{ color: 'var(--bsa-blue)' }}>
                   {item.title}
                 </h3>
-                <p className="text-gray-200 max-w-[30ch] text-center">
+                <p className="text-gray-200 max-w-[30ch] text-center text-black" style={{ color: '#333' }}>
                   {item.description}
                 </p>
               </div>
@@ -63,7 +63,7 @@ export default function Timeline({ title, items }: TimelineProps) {
 
       {/* Scroll Indicator */}
       <div className="text-center mt-4">
-        <p className="text-gray-300 text-sm">← Scroll horizontally to explore the timeline →</p>
+        <p className="text-sm">← Scroll horizontally to explore the timeline →</p>
       </div>
     </div>
   );

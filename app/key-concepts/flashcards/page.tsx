@@ -34,7 +34,7 @@ export default function FlashcardsPage() {
           {/* Content overlay */}
           <div className="relative z-20 p-8 rounded-lg" >
             <h1 className="font-bold mb-4 color-white">Key Concepts: Flashcards</h1>
-            <p className="mb-6">Test your knowledge of key terms. Click a card to see its definition.</p>
+            <p className="mb-6">It is first important to understand certain aspects of Computer Science before we explore Artificial Intelligence.</p>
             <div className="flashcard-grid mb-8">
               {keyConcepts.map((item, idx) => (
                 <div

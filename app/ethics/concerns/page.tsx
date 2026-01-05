@@ -7,8 +7,8 @@ export default function ConcernsPage() {
       <div className="relative min-h-screen">
         {/* Background Image */}
         <Image 
-          src="/images/ai-workers.jpg" 
-          alt="AI Workers" 
+          src="/images/ethics.jpg" 
+          alt="Ethics" 
           fill
           className="absolute inset-0 object-cover z-0"
         />
@@ -36,11 +36,11 @@ export default function ConcernsPage() {
             <p className="mb-6">Let&rsquo;s explore what AI ethics means and why it matters for our future.</p>
 
             {/* What Are AI Ethics */}
-            <div className="mb-8">
+            <div className="mt-132 mb-8">
               <h3 className="text-xl font-semibold mb-4 color-white">What Are AI Ethics?</h3>
               <ul className="space-y-12">
                 <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0}>
-                  <strong>Fairness:</strong> AI systems should treat all people equally, regardless of their race, gender, age, or background. They shouldn&rsquo;t discriminate or show bias against certain groups.
+                  <strong>Fairness:</strong> AI systems should treat all people equally, regardless of their race, gender, age, or background. They shouldn&rsquo;t discriminate or show bias against or toward certain groups.
                 </AnimatedListItem>
                 <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.1}>
                   <strong>Transparency:</strong> People should be able to understand how AI makes decisions that affect them. It shouldn&rsquo;t be a mysterious &ldquo;black box&rdquo; that no one can explain.
@@ -55,7 +55,7 @@ export default function ConcernsPage() {
             </div>
 
             {/* Problems AI Could Bring */}
-            <div className="mb-8">
+            <div className="mt-32 mb-8">
               <h3 className="text-xl font-semibold mb-4 color-white">What Problems Could AI Create?</h3>
               <ul className="space-y-12">
                 <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.4}>
@@ -77,7 +77,7 @@ export default function ConcernsPage() {
             </div>
 
             {/* Why We Should Care */}
-            <div className="mb-8">
+            <div className="mt-32 mb-8">
               <h3 className="text-xl font-semibold mb-4 color-white">Why Should We Care About AI Ethics?</h3>
               <ul className="space-y-12">
                 <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.9}>
@@ -96,7 +96,7 @@ export default function ConcernsPage() {
             </div>
 
             {/* Call to Action */}
-            <div className="mb-8 p-6 bg-white bg-opacity-90 rounded-lg">
+            <div className="mt-32 mb-32 p-6 bg-white bg-opacity-90 rounded-lg">
               <h3 className="text-xl font-semibold mb-3" style={{ color: 'var(--bsa-red)' }}>
                 Remember:
               </h3>

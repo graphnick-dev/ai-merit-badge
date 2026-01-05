@@ -24,9 +24,9 @@ export default function PracticalApplicationPage() {
             
             <p className="mb-8 text-white">Choose one option for Requirement 7 to demonstrate your AI knowledge through hands-on application.</p>
             
-            <ul className="space-y-12 list-none">
+            <ul className="mt-32 space-y-12 list-none">
               {/* Option A - Project */}
-              <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0}>
+              <AnimatedListItem className="z-20 p-6 mb-64 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0}>
                 <h3 className="text-xl font-semibold mb-4" style={{ color: 'var(--bsa-red)' }}>
                   Option A: AI Project
                 </h3>
@@ -43,7 +43,7 @@ export default function PracticalApplicationPage() {
               </AnimatedListItem>
 
               {/* Option B - Teaching */}
-              <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.2}>
+              <AnimatedListItem className="z-20 mt-64 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.2}>
                 <h3 className="text-xl font-semibold mb-4" style={{ color: 'var(--bsa-red)' }}>
                   Option B: Teaching Lesson
                 </h3>
@@ -60,14 +60,14 @@ export default function PracticalApplicationPage() {
               </AnimatedListItem>
 
               {/* Key Requirements */}
-              <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.4}>
+              <AnimatedListItem className="z-20 p-6 mt-64 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.4}>
                 <h3 className="text-xl font-semibold mb-4" style={{ color: 'var(--bsa-red)' }}>
                   Important Reminders
                 </h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <h4 className="font-medium text-white mb-2">Before You Start:</h4>
-                    <ul className="list-disc pl-5 space-y-1 text-sm text-gray-200">
+                    <ul className="list-disc pl-5 space-y-1 text-gray-200">
                       <li>Get approval from your counselor</li>
                       <li>Choose based on your interests and skills</li>
                       <li>Consider time and resource constraints</li>
@@ -76,7 +76,7 @@ export default function PracticalApplicationPage() {
                   </div>
                   <div>
                     <h4 className="font-medium text-white mb-2">For Your Counselor Discussion:</h4>
-                    <ul className="list-disc pl-5 space-y-1 text-sm text-gray-200">
+                    <ul className="list-disc pl-5 space-y-1 text-gray-200">
                       <li>Document your development process</li>
                       <li>Be ready to explain your decisions</li>
                       <li>Reflect on what you learned</li>

@@ -7,8 +7,8 @@ export default function PromptEngineeringPage() {
       <div className="relative min-h-screen">
         {/* Background Image */}
         <Image 
-          src="/images/ai-workers.jpg" 
-          alt="AI Workers" 
+          src="/images/communicating.jpg" 
+          alt="Communication with AI" 
           fill
           className="absolute inset-0 object-cover z-0"
         />
@@ -18,8 +18,8 @@ export default function PromptEngineeringPage() {
 
           {/* Content overlay */}
           <div className="relative z-20 p-8 rounded-lg" >
-            <h1 className="font-bold mb-4 color-white">Prompt Engineering</h1>
-            <h2 className="font-bold mb-4 color-white">How to Talk to AI Effectively</h2>
+            <h1 className="font-bold mb-4 text-white">Prompt Engineering</h1>
+            <h2 className="font-bold mb-4 text-white">How to Talk to AI Effectively</h2>
             
             {/* Opening Question */}
             <div className="mb-8 p-6 bg-white bg-opacity-90 rounded-lg">
@@ -35,14 +35,14 @@ export default function PromptEngineeringPage() {
               </p>
             </div>
 
-            <p className="mb-6">Let&rsquo;s learn how to communicate with AI systems effectively through prompt engineering.</p>
+            <p className="mb-132">Let&rsquo;s learn how to communicate with AI systems effectively through prompt engineering.</p>
 
             {/* What is Prompt Engineering */}
             <div className="mb-8">
-              <h3 className="text-xl font-semibold mb-4 color-white">What is Prompt Engineering?</h3>
               <ul className="space-y-12 list-none">
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0}>
-                  <strong>Definition:</strong> Prompt engineering is the skill of writing clear, specific instructions to get the best possible responses from AI systems like ChatGPT, Bard, or other language models.
+                <AnimatedListItem className="z-20 p-6 mb-64rounded-[1em] bg-red-100 rounded-lg text-black" delay={0}>
+                    <h3 className="text-xl font-semibold mb-4">What is Prompt Engineering?</h3>
+                  Prompt engineering is the skill of writing clear, specific instructions to get the best possible responses from AI systems like ChatGPT, Bard, or other language models.
                 </AnimatedListItem>
                 <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.1}>
                   <strong>Why It Matters:</strong> AI systems are very literal and work best when given detailed instructions. A well-crafted prompt can mean the difference between getting a helpful response or something completely off-topic.
@@ -54,9 +54,9 @@ export default function PromptEngineeringPage() {
             </div>
 
             {/* Zero-Shot Prompts */}
-            <div className="mb-8">
-              <h3 className="text-xl font-semibold mb-4 color-white">Zero-Shot Prompts</h3>
+            <div className="mt-64 mb-8">
               <div className="mb-6 p-4 bg-blue-100 rounded-lg">
+              <h3 className="text-xl font-semibold mb-4 text-white">Zero-Shot Prompts</h3>
                 <p className="text-gray-800 font-medium">
                   Zero-shot prompts give the AI a task without any examples—you just describe what you want.
                 </p>
@@ -79,9 +79,9 @@ export default function PromptEngineeringPage() {
             </div>
 
             {/* One-Shot Prompts */}
-            <div className="mb-8">
-              <h3 className="text-xl font-semibold mb-4 color-white">One-Shot Prompts</h3>
+            <div className="mt-64 mb-8">
               <div className="mb-6 p-4 bg-green-100 rounded-lg">
+              <h3 className="text-xl font-semibold mb-4 text-white">One-Shot Prompts</h3>
                 <p className="text-gray-800 font-medium">
                   One-shot prompts include a single example to show the AI exactly what format or style you want.
                 </p>
@@ -108,9 +108,9 @@ export default function PromptEngineeringPage() {
             </div>
 
             {/* Multi-Shot Prompts */}
-            <div className="mb-8">
-              <h3 className="text-xl font-semibold mb-4 color-white">Multi-Shot Prompts</h3>
+            <div className="mt-64 mb-8">
               <div className="mb-6 p-4 bg-purple-100 rounded-lg">
+              <h3 className="text-xl font-semibold mb-4 text-white">Multi-Shot Prompts</h3>
                 <p className="text-gray-800 font-medium">
                   Multi-shot prompts provide multiple examples to teach the AI a pattern or demonstrate complex reasoning.
                 </p>
@@ -134,10 +134,10 @@ export default function PromptEngineeringPage() {
             </div>
 
             {/* Practical Tips */}
-            <div className="mb-8">
-              <h3 className="text-xl font-semibold mb-4 color-white">Practical Tips for Better Prompts</h3>
+            <div className="mt-64 mb-8">
               <ul className="space-y-12 list-none">
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.9}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] bg-orange-100 rounded-lg text-black" delay={0.9}>
+              <h3 className="text-xl font-semibold mb-4 text-white">Practical Tips for Better Prompts</h3>
                   <strong>Be Specific About Your Audience:</strong> Mention who will read or use the output—&ldquo;for middle schoolers,&rdquo; &ldquo;for my science teacher,&rdquo; or &ldquo;for beginners.&rdquo;
                 </AnimatedListItem>
                 <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.0}>
@@ -156,10 +156,10 @@ export default function PromptEngineeringPage() {
             </div>
 
             {/* Common Prompt Patterns */}
-            <div className="mb-8">
-              <h3 className="text-xl font-semibold mb-4 color-white">Common Prompt Patterns That Work Well</h3>
+            <div className="mt-64 mb-8">
               <ul className="space-y-12 list-none">
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.4}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] bg-green-100 text-black rounded-lg" delay={1.4}>
+              <h3 className="text-xl font-semibold mb-4 text-white">Common Prompt Patterns That Work Well</h3>
                   <strong>The &ldquo;Explain Like I&rsquo;m&rdquo; Pattern:</strong> &ldquo;Explain quantum physics like I&rsquo;m a 10-year-old who loves magic tricks.&rdquo;
                 </AnimatedListItem>
                 <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.5}>
@@ -175,7 +175,7 @@ export default function PromptEngineeringPage() {
             </div>
 
             {/* Practice Activity */}
-            <div className="mb-8 p-6 bg-white bg-opacity-90 rounded-lg">
+            <div className="mt-64 mb-8 p-6 bg-white bg-opacity-90 rounded-lg">
               <h3 className="text-xl font-semibold mb-3" style={{ color: 'var(--bsa-red)' }}>
                 Try This Exercise:
               </h3>

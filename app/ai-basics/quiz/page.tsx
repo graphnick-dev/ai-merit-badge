@@ -73,8 +73,8 @@ export default function AIOrNotQuizPage() {
       <div className="relative min-h-screen">
         {/* Background Image */}
         <Image 
-          src="/images/ai-workers.jpg" 
-          alt="AI Workers" 
+          src="/images/life.jpg" 
+          alt="Life" 
           fill
           className="absolute inset-0 object-cover z-0"
         />

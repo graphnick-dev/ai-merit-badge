@@ -7,8 +7,8 @@ export default function TuringTestPage() {
       <div className="relative min-h-screen">
         {/* Background Image */}
         <Image 
-          src="/images/ai-workers.jpg" 
-          alt="AI Workers" 
+          src="/images/ethics.jpg" 
+          alt="Ethics" 
           fill
           className="absolute inset-0 object-cover z-0"
         />
@@ -37,7 +37,7 @@ export default function TuringTestPage() {
             <p className="mb-6">This question is at the heart of the famous Turing Test, one of the most important ideas in artificial intelligence.</p>
 
             {/* What is the Turing Test */}
-            <div className="mt-16 mb-12">
+            <div className="mt-132 mb-12">
               <h3 className="text-xl font-semibold mb-4 color-white">What Is the Turing Test?</h3>
               <ul className="space-y-12">
                 <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0}>
@@ -53,7 +53,7 @@ export default function TuringTestPage() {
             </div>
 
             {/* How Does It Work */}
-            <div className="mb-16">
+            <div className="mt-32 mb-16">
               <h3 className="text-xl font-semibold mb-4 color-white">How Does the Turing Test Work?</h3>
               <ul className="space-y-12">
                 <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.3}>
@@ -72,7 +72,7 @@ export default function TuringTestPage() {
             </div>
 
             {/* Why Is It Important */}
-            <div className="mb-16">
+            <div className="mt-32 mb-16">
               <h3 className="text-xl font-semibold mb-4 color-white">Why Is the Turing Test Important?</h3>
               <ul className="space-y-12">
                 <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.7}>
@@ -91,7 +91,7 @@ export default function TuringTestPage() {
             </div>
 
             {/* Modern Examples */}
-            <div className="mb-16">
+            <div className="mt-32 mb-16">
               <h3 className="text-xl font-semibold mb-4 color-white">Has Any AI Passed the Turing Test?</h3>
               <ul className="space-y-12">
                 <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.1}>
@@ -107,7 +107,7 @@ export default function TuringTestPage() {
             </div>
 
             {/* Limitations and Criticisms */}
-            <div className="mt-12 mb-8">
+            <div className="mt-16 mb-8">
               <h3 className="text-xl font-semibold mb-4 color-white">What Are the Test&rsquo;s Limitations?</h3>
               <ul className="space-y-12">
                 <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.4}>
@@ -123,7 +123,7 @@ export default function TuringTestPage() {
             </div>
 
             {/* Call to Action */}
-            <div className="mt-16 mb-12 p-6 bg-white bg-opacity-90 rounded-lg">
+            <div className="mt-32 mb-32 p-6 bg-white bg-opacity-90 rounded-lg">
               <h3 className="text-xl font-semibold mb-3" style={{ color: 'var(--bsa-red)' }}>
                 Try It Yourself:
               </h3>

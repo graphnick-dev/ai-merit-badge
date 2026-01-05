@@ -65,7 +65,7 @@ export default function TimelinePage() {
           {/* Content overlay */}
           <div className="relative z-20 p-8 rounded-lg" >
             <h1 className="font-bold mb-4 color-white">Automation Timeline</h1>
-            <p className="mb-6 text-white mb-96">Create a timeline with five key milestones in the development of automation.</p>
+            <p className="mb-6 text-white mb-216">Create a timeline with five key milestones in the development of automation.</p>
             
             {/* Timeline Component */}
             <Timeline 
@@ -74,7 +74,7 @@ export default function TimelinePage() {
             />
 
             {/* Timeline Summary */}
-            <div className="mt-8 p-6 bg-white bg-opacity-90 rounded-lg">
+            <div className="mt-96 mb-32 p-6 bg-white bg-opacity-90 rounded-lg">
               <h3 className="text-xl font-semibold mb-3" style={{ color: 'var(--bsa-red)' }}>
                 Timeline Reflection:
               </h3>

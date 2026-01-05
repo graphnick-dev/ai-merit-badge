@@ -6,8 +6,8 @@ export default function EthicsPage() {
       <div className="relative min-h-screen">
         {/* Background Image */}
         <Image 
-          src="/images/ai-workers.jpg" 
-          alt="AI Workers" 
+          src="/images/ethics.jpg" 
+          alt="Ethics" 
           fill
           className="absolute inset-0 object-cover z-0"
         />
@@ -16,7 +16,7 @@ export default function EthicsPage() {
         <div className="absolute inset-0 bg-opacity-50 z-1000 max-w-7xl">
 
           {/* Content overlay */}
-          <div className="relative z-20 p-8 bg-filter backdrop-blur-sm rounded-lg" >
+          <div className="relative z-20 p-8 rounded-lg" >
             <h1 className="font-bold mb-4 color-white">Ethics in AI</h1>
             <p className="mb-6">Explore ethical concerns, responsible use, and the Turing Test.</p>
             {/* Add ethical scenario games or discussion prompts here */}

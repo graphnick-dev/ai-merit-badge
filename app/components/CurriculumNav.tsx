@@ -10,7 +10,7 @@ export default function CurriculumNav({ currentStep }: { currentStep?: string })
     <nav className="mb-8">
       <ul className="flex flex-col gap-2">
         <li className="mb-4">
-          <Link href="/" className="text-2xl font-bold text-gray-900 dark:text-white ai-merit-badge-title">
+          <Link href="/" className="text-2xl font-bold text-gray-900 dark:text-white ai-merit-badge-title cursor-pointer">
             AI Merit Badge  <Image src='/images/ai-badge.webp' alt="AI Merit Badge" className='inline' width={40} height={40} />
           </Link>
         </li>
@@ -18,7 +18,7 @@ export default function CurriculumNav({ currentStep }: { currentStep?: string })
           <li key={section.path}>
             <Link
               href={section.path}
-              className={`font-bold ${pathname.startsWith(section.path) ? "text-blue-600" : "text-gray-800"}`}
+              className={`cursor-pointer font-bold ${pathname.startsWith(section.path) ? "text-blue-600" : "text-gray-800"}`}
             >
               {idx + 1}. {section.title}
             </Link>
@@ -28,7 +28,7 @@ export default function CurriculumNav({ currentStep }: { currentStep?: string })
                   <li key={step.path}>
                     <Link
                       href={step.path}
-                      className={`text-sm ${pathname === step.path ? "text-blue-500 underline" : "text-gray-600"}`}
+                      className={`cursor-pointer text-sm ${pathname === step.path ? "text-blue-500 underline" : "text-gray-600"}`}
                     >
                       {step.title}
                     </Link>

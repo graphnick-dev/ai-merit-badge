@@ -7,8 +7,8 @@ export default function GuidelinesPage() {
       <div className="relative min-h-screen">
         {/* Background Image */}
         <Image 
-          src="/images/ai-workers.jpg" 
-          alt="AI Workers" 
+          src="/images/ethics.jpg" 
+          alt="Ethics" 
           fill
           className="absolute inset-0 object-cover z-0"
         />
@@ -36,7 +36,7 @@ export default function GuidelinesPage() {
             <p className="mb-6">Let&rsquo;s explore important guidelines that can help everyone use AI technology safely, ethically, and responsibly.</p>
 
             {/* Personal Safety Guidelines */}
-            <div className="mb-8">
+            <div className="mt-116 mb-8">
               <h3 className="text-xl font-semibold mb-4 color-white">Personal Safety Guidelines</h3>
               <ul className="space-y-12">
                 <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0}>
@@ -56,7 +56,7 @@ export default function GuidelinesPage() {
 
             {/* Academic and Educational Guidelines */}
             <div className="mb-8">
-              <h3 className="text-xl font-semibold mb-4 color-white">Academic and Educational Guidelines</h3>
+              <h3 className="text-xl font-semibold mt-32 mb-4 color-white">Academic and Educational Guidelines</h3>
               <ul className="space-y-12">
                 <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.4}>
                   <strong>Understand Your School&rsquo;s Policy:</strong> Learn what your school allows and prohibits when it comes to AI use for homework, projects, and tests.
@@ -74,7 +74,7 @@ export default function GuidelinesPage() {
             </div>
 
             {/* Ethical Usage Guidelines */}
-            <div className="mb-8">
+            <div className="mt-32 mb-8">
               <h3 className="text-xl font-semibold mb-4 color-white">Ethical Usage Guidelines</h3>
               <ul className="space-y-12">
                 <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.8}>
@@ -93,7 +93,7 @@ export default function GuidelinesPage() {
             </div>
 
             {/* Critical Thinking Guidelines */}
-            <div className="mb-8">
+            <div className="mt-32 mb-8">
               <h3 className="text-xl font-semibold mb-4 color-white">Critical Thinking Guidelines</h3>
               <ul className="space-y-12">
                 <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.2}>
@@ -112,7 +112,7 @@ export default function GuidelinesPage() {
             </div>
 
             {/* Future-Ready Guidelines */}
-            <div className="mb-8">
+            <div className="mt-32 mb-8">
               <h3 className="text-xl font-semibold mb-4 color-white">Future-Ready Guidelines</h3>
               <ul className="space-y-12">
                 <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.6}>
@@ -131,7 +131,7 @@ export default function GuidelinesPage() {
             </div>
 
             {/* Brainstorming Activity */}
-            <div className="mb-8 p-6 bg-white bg-opacity-90 rounded-lg">
+            <div className="mt-32 mb-8 p-6 bg-white bg-opacity-90 rounded-lg">
               <h3 className="text-xl font-semibold mb-3" style={{ color: 'var(--bsa-red)' }}>
                 Brainstorming Activity:
               </h3>

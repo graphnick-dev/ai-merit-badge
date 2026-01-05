@@ -20,38 +20,8 @@ export default function KeyConceptsPage() {
               
 
             <h1 className="font-bold mb-4 color-white">Key Concepts</h1>
-            <p className="mb-6">Define and explore the key terms of Artificial Intelligence and Automation.</p>
+            <p className="mb-6">Define and explore the key terms of Computer Science (CS) and Artificial Intelligence (AI).</p>
 
-          <div className="relative z-20 p-8 rounded-[1em] backdrop-blur-sm bg-white/20 max-w-[45ch]" >
-            <h3 className="text-xl font-bold mb-3">What is Artificial Intelligence?</h3>
-              <p className="mb-2">
-                Artificial Intelligence (AI) is technology that can perform tasks that typically require human intelligence, 
-                such as recognizing speech, making decisions, or solving problems.
-              </p>
-              <p>
-                From smartphone assistants to recommendation systems, AI is already part of our daily lives 
-                and will continue to shape our future.
-              </p>
-            </div>
-          <div className="relative z-20 p-8 rounded-[1em] backdrop-blur-sm bg-white/20 mt-8 max-w-[45ch]" >
-            <h3 className="text-xl font-bold mb-3">How does Artificial Intelligence work?</h3>
-              <p className="mb-3">
-                Think of AI like a really smart pattern-finding machine. It learns by looking at millions of examples, 
-                just like how you learned to recognize a dog by seeing lots of different dogs.
-              </p>
-              <p className="mb-3">
-                <strong>Tokens:</strong> AI reads text by breaking it into small pieces called &ldquo;tokens&rdquo; - think of them like puzzle pieces. 
-                Each word or part of a word becomes a token that the AI can understand and work with.
-              </p>
-              <p className="mb-3">
-                <strong>Context:</strong> Just like you remember what we were talking about earlier in our conversation, 
-                AI uses &ldquo;context&rdquo; to keep track of the whole conversation, not just the last thing you said.
-              </p>
-              <p>
-                The AI uses math patterns to predict what comes next, similar to how you might finish someone&rsquo;s sentence 
-                because you&rsquo;ve heard similar conversations before. The more examples it learns from, the better it gets!
-              </p>
-            </div>
             <StepNav />
           </div>
         </div>
