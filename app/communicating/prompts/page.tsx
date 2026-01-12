@@ -44,10 +44,10 @@ export default function PromptEngineeringPage() {
                     <h3 className="text-xl font-semibold mb-4">What is Prompt Engineering?</h3>
                   Prompt engineering is the skill of writing clear, specific instructions to get the best possible responses from AI systems like ChatGPT, Bard, or other language models.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.1}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.1}>
                   <strong>Why It Matters:</strong> AI systems are very literal and work best when given detailed instructions. A well-crafted prompt can mean the difference between getting a helpful response or something completely off-topic.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.2}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.2}>
                   <strong>Real-World Skill:</strong> Learning to communicate clearly with AI is becoming as important as learning to use a search engine or write an email—it&rsquo;s a valuable skill for school, work, and daily life.
                 </AnimatedListItem>
               </ul>
@@ -62,13 +62,13 @@ export default function PromptEngineeringPage() {
                 </p>
               </div>
               <ul className="space-y-12 list-none">
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.3}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.3}>
                   <strong>When to Use:</strong> For simple, straightforward tasks where the instruction is clear and you don&rsquo;t need to show a specific format or style.
                   <div className="mt-3 p-3 bg-gray-800 rounded text-green-300 font-mono text-sm">
                     Example: &ldquo;Explain photosynthesis in simple terms that a 5th grader could understand.&rdquo;
                   </div>
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.4}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.4}>
                   <strong>Best Practices:</strong> Be specific about what you want, who the audience is, and what format you prefer. Include context that helps the AI understand your needs.
                   <div className="mt-3 p-3 bg-gray-800 rounded text-green-300 font-mono text-sm">
                     <p className="mb-4">Poor: &ldquo;Tell me about the Civil War.&rdquo;</p>
@@ -87,7 +87,7 @@ export default function PromptEngineeringPage() {
                 </p>
               </div>
               <ul className="space-y-12 list-none">
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.5}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.5}>
                   <strong>When to Use:</strong> When you need a specific format, style, or structure that might not be obvious from instructions alone.
                   <div className="mt-3 p-3 bg-gray-800 rounded text-green-300 font-mono text-sm">
                     Example: <br /> &ldquo;Help me create cards for a website that will show six different examples. Format like this example:<br/>
@@ -101,7 +101,7 @@ export default function PromptEngineeringPage() {
                     Now create HTML cards for: Science Fair Projects, Book Reviews, Recipe Collection&rdquo;
                   </div>
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.6}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.6}>
                   <strong>Benefits:</strong> Helps ensure consistency in output format and reduces the need for follow-up corrections. The AI can pattern-match from your example.
                 </AnimatedListItem>
               </ul>
@@ -116,7 +116,7 @@ export default function PromptEngineeringPage() {
                 </p>
               </div>
               <ul className="space-y-12 list-none">
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.7}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.7}>
                   <strong>When to Use:</strong> For complex tasks, creative writing with a specific style, or when you need the AI to learn a particular pattern of thinking or formatting.
                   <div className="mt-3 p-3 bg-gray-800 rounded text-green-300 font-mono text-sm">
                     Example: &ldquo;I&rsquo;ll show you how to turn facts into interesting story openings:<br/><br/>
@@ -127,7 +127,7 @@ export default function PromptEngineeringPage() {
                     Now you try with: Dolphins use echolocation to navigate.&rdquo;
                   </div>
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.8}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.8}>
                   <strong>Benefits:</strong> Enables more sophisticated and nuanced responses. Great for teaching the AI complex patterns or creative styles that would be hard to explain with words alone.
                 </AnimatedListItem>
               </ul>
@@ -140,16 +140,16 @@ export default function PromptEngineeringPage() {
               <h3 className="text-xl font-semibold mb-4 text-white">Practical Tips for Better Prompts</h3>
                   <strong>Be Specific About Your Audience:</strong> Mention who will read or use the output—&ldquo;for middle schoolers,&rdquo; &ldquo;for my science teacher,&rdquo; or &ldquo;for beginners.&rdquo;
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.0}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.0}>
                   <strong>Specify Length and Format:</strong> Ask for &ldquo;3 bullet points,&rdquo; &ldquo;a 2-paragraph explanation,&rdquo; or &ldquo;a numbered list of 5 items.&rdquo;
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.1}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.1}>
                   <strong>Give Context:</strong> Explain why you need the information—&ldquo;for a school presentation,&rdquo; &ldquo;to help with homework,&rdquo; or &ldquo;to understand a concept better.&rdquo;
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.2}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.2}>
                   <strong>Iterate and Refine:</strong> If the first response isn&rsquo;t quite right, ask follow-up questions or provide more specific guidance to improve the output.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.3}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.3}>
                   <strong>Use Role-Playing:</strong> Ask the AI to take on a role—&ldquo;Act as a friendly tutor and explain this math concept&rdquo; or &ldquo;Respond as if you&rsquo;re a museum guide.&rdquo;
                 </AnimatedListItem>
               </ul>
@@ -162,13 +162,13 @@ export default function PromptEngineeringPage() {
               <h3 className="text-xl font-semibold mb-4 text-white">Common Prompt Patterns That Work Well</h3>
                   <strong>The &ldquo;Explain Like I&rsquo;m&rdquo; Pattern:</strong> &ldquo;Explain quantum physics like I&rsquo;m a 10-year-old who loves magic tricks.&rdquo;
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.5}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.5}>
                   <strong>The Comparison Pattern:</strong> &ldquo;Compare and contrast democracy and monarchy, focusing on how decisions are made in each system.&rdquo;
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.6}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.6}>
                   <strong>The Step-by-Step Pattern:</strong> &ldquo;Provide a step-by-step guide for solving algebraic equations, with an example for each step.&rdquo;
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.7}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.7}>
                   <strong>The Creative Constraint Pattern:</strong> &ldquo;Write a short story about friendship that takes place entirely in a library and includes a mysterious book.&rdquo;
                 </AnimatedListItem>
               </ul>

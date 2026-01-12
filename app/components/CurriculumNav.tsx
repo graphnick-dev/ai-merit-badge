@@ -15,7 +15,7 @@ export default function CurriculumNav({ currentStep }: { currentStep?: string })
           </Link>
         </li>
         {curriculum.map((section, idx) => (
-          <li key={section.path}>
+          <li key={section.path} style={{ paddingLeft: '1.2em', textIndent: '-1.2em' }}>
             <Link
               href={section.path}
               className={`cursor-pointer font-bold ${pathname.startsWith(section.path) ? "text-blue-600" : "text-gray-800"}`}
@@ -23,7 +23,7 @@ export default function CurriculumNav({ currentStep }: { currentStep?: string })
               {idx + 1}. {section.title}
             </Link>
             {pathname.startsWith(section.path) && section.steps && (
-              <ul className="ml-4 mt-1 flex flex-col gap-1">
+              <ul className="ml-5 mt-1 flex flex-col gap-1">
                 {section.steps.map((step) => (
                   <li key={step.path}>
                     <Link

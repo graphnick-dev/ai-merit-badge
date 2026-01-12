@@ -40,13 +40,13 @@ export default function TuringTestPage() {
             <div className="mt-132 mb-12">
               <h3 className="text-xl font-semibold mb-4 color-white">What Is the Turing Test?</h3>
               <ul className="space-y-12">
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0}>
                   <strong>The Creator:</strong> The test was proposed in 1950 by Alan Turing, a brilliant British mathematician and computer scientist who helped crack secret codes during World War II.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.1}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.1}>
                   <strong>The Basic Idea:</strong> Instead of asking &ldquo;Can machines think?&rdquo; (which is hard to answer), Turing asked &ldquo;Can machines behave in a way that&rsquo;s indistinguishable from human thinking?&rdquo;
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.2}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.2}>
                   <strong>The Original Name:</strong> Turing originally called it the &ldquo;Imitation Game&rdquo; because the machine tries to imitate human conversation so well that people can&rsquo;t tell the difference.
                 </AnimatedListItem>
               </ul>
@@ -56,16 +56,16 @@ export default function TuringTestPage() {
             <div className="mt-32 mb-16">
               <h3 className="text-xl font-semibold mb-4 color-white">How Does the Turing Test Work?</h3>
               <ul className="space-y-12">
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.3}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.3}>
                   <strong>The Setup:</strong> A human judge sits at a computer and has conversations through text with two participants—one human and one AI—without knowing which is which.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.4}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.4}>
                   <strong>The Conversation:</strong> The judge can ask any questions they want and has natural conversations with both participants for several minutes.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.5}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.5}>
                   <strong>The Decision:</strong> After the conversation, the judge must decide which participant was the human and which was the AI.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.6}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.6}>
                   <strong>Passing the Test:</strong> If the AI can fool the judge into thinking it&rsquo;s human at least 30% of the time, it&rsquo;s considered to have &ldquo;passed&rdquo; the Turing Test.
                 </AnimatedListItem>
               </ul>
@@ -75,16 +75,16 @@ export default function TuringTestPage() {
             <div className="mt-32 mb-16">
               <h3 className="text-xl font-semibold mb-4 color-white">Why Is the Turing Test Important?</h3>
               <ul className="space-y-12">
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.7}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.7}>
                   <strong>Benchmark for AI:</strong> It gives us a practical way to measure how sophisticated an AI system is at understanding and responding like a human.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.8}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.8}>
                   <strong>Philosophical Questions:</strong> It makes us think about what intelligence really means and whether machines can truly &ldquo;understand&rdquo; or just simulate understanding very well.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.9}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.9}>
                   <strong>Goal for Developers:</strong> It provides AI researchers with a clear target to aim for when creating more human-like AI systems.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.0}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.0}>
                   <strong>Ethical Considerations:</strong> It raises important questions about how we should treat AI systems that can convince us they&rsquo;re human.
                 </AnimatedListItem>
               </ul>
@@ -94,13 +94,13 @@ export default function TuringTestPage() {
             <div className="mt-32 mb-16">
               <h3 className="text-xl font-semibold mb-4 color-white">Has Any AI Passed the Turing Test?</h3>
               <ul className="space-y-12">
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.1}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.1}>
                   <strong>Close Calls:</strong> Some chatbots have come close or claimed to pass, but experts often debate whether these were true passes or if the tests weren&rsquo;t rigorous enough.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.2}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.2}>
                   <strong>Modern AI:</strong> Today&rsquo;s AI assistants like ChatGPT, Google&rsquo;s Bard, and others can have very human-like conversations, but they still sometimes reveal their artificial nature.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.3}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.3}>
                   <strong>The Challenge:</strong> The test is harder than it might seem because humans are incredibly good at detecting subtle signs that something isn&rsquo;t quite human.
                 </AnimatedListItem>
               </ul>
@@ -110,13 +110,13 @@ export default function TuringTestPage() {
             <div className="mt-16 mb-8">
               <h3 className="text-xl font-semibold mb-4 color-white">What Are the Test&rsquo;s Limitations?</h3>
               <ul className="space-y-12">
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.4}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.4}>
                   <strong>Surface-Level:</strong> The test only measures conversation ability, not whether the AI truly understands or has consciousness.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.5}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.5}>
                   <strong>Deception-Based:</strong> An AI might pass by being good at fooling people rather than by being genuinely intelligent.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.6}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.6}>
                   <strong>Human-Centered:</strong> It assumes that human-like conversation is the best measure of intelligence, but AI might be intelligent in completely different ways.
                 </AnimatedListItem>
               </ul>

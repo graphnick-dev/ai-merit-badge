@@ -23,34 +23,34 @@ export default function EverydayPage() {
             <p className="mb-64">What are some examples of automation (not AI) in everyday life?</p>
             {/* Add brainstorming or quiz components here */}
              <ul className="space-y-12 mt-216">
-                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-white/20" delay={0}>
+                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-black/30" delay={0}>
                   <strong>Automatic Car Doors:</strong> Sliding doors at grocery stores and elevators that open when they detect motion or pressure, without any manual operation.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-white/20" delay={0.1}>
+                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-black/30" delay={0.1}>
                   <strong>Coffee Makers with Timers:</strong> Programmable coffee machines that automatically start brewing at a set time each morning without human intervention.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-white/20" delay={0.2}>
+                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-black/30" delay={0.2}>
                   <strong>Washing Machines:</strong> Appliances that automatically run through wash, rinse, and spin cycles based on pre-programmed settings and timers.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-white/20" delay={0.3}>
+                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-black/30" delay={0.3}>
                   <strong>Street Lights:</strong> Traffic lights that operate on fixed timers or simple sensors, changing colors automatically without human control.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-white/20" delay={0.4}>
+                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-black/30" delay={0.4}>
                   <strong>Automatic Sprinkler Systems:</strong> Garden and lawn sprinklers that turn on and off based on programmed schedules or basic soil moisture sensors.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-white/20" delay={0.5}>
+                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-black/30" delay={0.5}>
                   <strong>Garage Door Openers:</strong> Remote-controlled systems that automatically open and close garage doors with the push of a button or sensor activation.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-white/20" delay={0.6}>
+                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-black/30" delay={0.6}>
                   <strong>Automatic Toilets:</strong> Public restroom toilets that flush automatically when motion sensors detect someone has finished using them.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-white/20" delay={0.7}>
+                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-black/30" delay={0.7}>
                   <strong>Dishwashers:</strong> Kitchen appliances that automatically run through wash and dry cycles once loaded and started, following preset programs.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-white/20" delay={0.8}>
+                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-black/30" delay={0.8}>
                   <strong>Security System Alarms:</strong> Home and building alarms that automatically activate when doors or windows are opened during armed periods.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-white/20" delay={0.9}>
+                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-black/30" delay={0.9}>
                   <strong>Vending Machines:</strong> Automated systems that dispense products after receiving payment, using mechanical processes to select and deliver items.
                 </AnimatedListItem>
               </ul>

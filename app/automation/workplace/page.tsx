@@ -23,19 +23,19 @@ export default function WorkplacePage() {
             <p className="mb-64">What are some examples of automation in the workplace?</p>
             {/* Add brainstorming or quiz components here */}
             <ul className="space-y-12 mt-216">
-                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-white/20" delay={0}>
+                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-black/30" delay={0}>
                   <strong>Assembly Line Conveyor Belts:</strong> Automated moving belts in factories that transport products through different stages of manufacturing without human operation.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-white/20" delay={0.1}>
+                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-black/30" delay={0.1}>
                   <strong>Email Auto-Reply Systems:</strong> Pre-programmed messages that automatically respond to emails when employees are out of office or unavailable.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-white/20" delay={0.2}>
+                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-black/30" delay={0.2}>
                   <strong>Time Clock Systems:</strong> Automated employee punch-in machines that track work hours and automatically calculate payroll without manual timekeeping.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-white/20" delay={0.3}>
+                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-black/30" delay={0.3}>
                   <strong>Inventory Barcode Scanners:</strong> Automated systems that track products in warehouses by scanning barcodes to update stock levels without manual counting.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-white/20" delay={0.4}>
+                <AnimatedListItem className="z-20 p-8 rounded-[1em] backdrop-blur-sm mt-8 max-w-[45ch] bg-black/30" delay={0.4}>
                   <strong>Building HVAC Systems:</strong> Automated heating, ventilation, and air conditioning that maintains office temperature based on preset schedules and thermostat settings.
                 </AnimatedListItem>
               </ul>

@@ -28,7 +28,7 @@ export default function ProjectIdeasPage() {
 
           <ul className="space-y-12 list-none">
             {/* Project Planning Section */}
-            <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0}>
+            <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0}>
               <h3 className="text-xl font-semibold mb-4" style={{ color: 'var(--bsa-red)' }}>
                 Planning Your AI Project
               </h3>
@@ -58,7 +58,7 @@ export default function ProjectIdeasPage() {
             </AnimatedListItem>
 
             {/* Beginner Projects */}
-            <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.2}>
+            <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.2}>
               <h3 className="text-xl font-semibold mb-4" style={{ color: 'var(--bsa-red)' }}>
                 🌱 Beginner Level Projects
               </h3>
@@ -79,7 +79,7 @@ export default function ProjectIdeasPage() {
             </AnimatedListItem>
 
             {/* Intermediate Projects */}
-            <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.4}>
+            <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.4}>
               <h3 className="text-xl font-semibold mb-4" style={{ color: 'var(--bsa-red)' }}>
                 🚀 Intermediate Level Projects
               </h3>
@@ -100,7 +100,7 @@ export default function ProjectIdeasPage() {
             </AnimatedListItem>
 
             {/* Community Projects */}
-            <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.6}>
+            <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.6}>
               <h3 className="text-xl font-semibold mb-4" style={{ color: 'var(--bsa-red)' }}>
                 🤝 Community Impact Projects
               </h3>
@@ -121,7 +121,7 @@ export default function ProjectIdeasPage() {
             </AnimatedListItem>
 
             {/* Tools and Platforms */}
-            <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.8}>
+            <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.8}>
               <h3 className="text-xl font-semibold mb-4" style={{ color: 'var(--bsa-red)' }}>
                 Recommended Tools & Platforms
               </h3>
@@ -157,7 +157,7 @@ export default function ProjectIdeasPage() {
             </AnimatedListItem>
 
             {/* Implementation Tips */}
-            <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.0}>
+            <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.0}>
               <h3 className="text-xl font-semibold mb-4" style={{ color: 'var(--bsa-red)' }}>
                 Implementation Tips
               </h3>

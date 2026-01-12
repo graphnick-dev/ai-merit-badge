@@ -54,7 +54,7 @@ export default function DeepfakeExamplesPage() {
             <ul className="space-y-12 list-none">
               
               {/* Example 1 */}
-              <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0}>
+              <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0}>
                 <h3 className="text-xl font-semibold mb-4" style={{ color: 'var(--bsa-red)' }}>
                   1. Celebrity Face Swap Example
                 </h3>
@@ -68,7 +68,7 @@ export default function DeepfakeExamplesPage() {
               </AnimatedListItem>
 
               {/* Example 2 */}
-              <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.2}>
+              <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.2}>
                 <h3 className="text-xl font-semibold mb-4" style={{ color: 'var(--bsa-red)' }}>
                   2. Political Figure Recreation
                 </h3>
@@ -82,7 +82,7 @@ export default function DeepfakeExamplesPage() {
 
               </AnimatedListItem>
 
-              <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.6}>
+              <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.6}>
                 <h3 className="text-xl font-semibold mb-4" style={{ color: 'var(--bsa-red)' }}>
                   3. AI Actors
                 </h3>
@@ -95,7 +95,7 @@ export default function DeepfakeExamplesPage() {
                 />
               </AnimatedListItem>
               
-              <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.6}>
+              <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.6}>
                 <h3 className="text-xl font-semibold mb-4" style={{ color: 'var(--bsa-red)' }}>
                   4. Deepfake or Real?
                 </h3>
@@ -112,19 +112,19 @@ export default function DeepfakeExamplesPage() {
             <div className="mt-12 mb-8">
               <h3 className="text-xl font-semibold mb-6 color-white">How hard is it to spot deepfakes?</h3>
               <ul className="space-y-12 list-none">
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.8}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.8}>
                   AI is getting too good anymore to easily spot.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.0}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.0}>
                   If it is something someone wouldn't normally do, like a politician saying/doing something outrageous, be skeptical.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.2}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.2}>
                   <strong>Background and Context:</strong> Check if the background, clothing, or setting seems consistent with when and where the person would have been.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.2}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.2}>
                   Some will play on your emotions so that you overlook tell tales of AI.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.4}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.4}>
                   <strong>Source Verification:</strong> Always check who posted the video, when it was created, and whether reputable news sources have verified its authenticity.
                 </AnimatedListItem>
               </ul>

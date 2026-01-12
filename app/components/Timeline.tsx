@@ -15,16 +15,35 @@ interface TimelineProps {
 }
 
 export default function Timeline({ title, items }: TimelineProps) {
+  // Color mapping to ensure Tailwind classes are recognized
+  const colorClasses = {
+    blue: 'bg-blue-600',
+    green: 'bg-green-600',
+    purple: 'bg-purple-600',
+    orange: 'bg-orange-600',
+    red: 'bg-red-600',
+  };
+
+  const gradientClasses = {
+    blue: { from: 'from-blue-400', to: 'to-blue-400', via: 'via-blue-400' },
+    green: { from: 'from-green-400', to: 'to-green-400', via: 'via-green-400' },
+    purple: { from: 'from-purple-400', to: 'to-purple-400', via: 'via-purple-400' },
+    orange: { from: 'from-orange-400', to: 'to-orange-400', via: 'via-orange-400' },
+    red: { from: 'from-red-400', to: 'to-red-400', via: 'via-red-400' },
+  };
+
   const generateGradientLine = (index: number, item: TimelineItem) => {
     const isFirst = index === 0;
     const isLast = index === items.length - 1;
+    const fromGrad = gradientClasses[item.gradientFrom as keyof typeof gradientClasses];
+    const toGrad = gradientClasses[item.gradientTo as keyof typeof gradientClasses];
     
     if (isFirst) {
-      return `bg-gradient-to-r from-transparent via-${item.gradientFrom}-400 to-${item.gradientTo}-400`;
+      return `bg-gradient-to-r from-transparent ${fromGrad?.via || 'via-blue-400'} ${toGrad?.to || 'to-blue-400'}`;
     } else if (isLast) {
-      return `bg-gradient-to-r from-${item.gradientFrom}-400 via-${item.gradientTo}-400 to-transparent`;
+      return `bg-gradient-to-r ${fromGrad?.from || 'from-blue-400'} ${toGrad?.via || 'via-blue-400'} to-transparent`;
     } else {
-      return `bg-gradient-to-r from-${item.gradientFrom}-400 via-${item.gradientTo}-400 to-${item.gradientTo}-400`;
+      return `bg-gradient-to-r ${fromGrad?.from || 'from-blue-400'} ${toGrad?.via || 'via-blue-400'} ${toGrad?.to || 'to-blue-400'}`;
     }
   };
 
@@ -42,7 +61,7 @@ export default function Timeline({ title, items }: TimelineProps) {
               <div className={`w-full h-4 ${generateGradientLine(index, item)} mt-16`}></div>
               
               {/* Year Circle - Positioned over the line */}
-              <div className={`w-16 h-16 bg-${item.color}-600 rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg absolute top-0 left-1/2 transform -translate-x-1/2 translate-y-10 z-30`}>
+              <div className={`w-16 h-16 ${colorClasses[item.color as keyof typeof colorClasses] || 'bg-blue-600'} rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg absolute top-0 left-1/2 transform -translate-x-1/2 translate-y-10 z-30`}>
                 {item.year}
               </div>
               

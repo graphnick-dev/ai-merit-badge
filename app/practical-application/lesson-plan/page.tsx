@@ -51,7 +51,7 @@ export default function LessonPlanPage() {
             </AnimatedListItem>
 
             {/* Lesson Plan Template */}
-            <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.2}>
+            <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.2}>
               <h3 className="text-xl font-semibold mb-4" style={{ color: 'var(--bsa-red)' }}>
                 Sample 30-Minute Lesson Plan
               </h3>
@@ -110,7 +110,7 @@ export default function LessonPlanPage() {
             </AnimatedListItem>
 
             {/* Interactive Demo Ideas */}
-            <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.4}>
+            <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.4}>
               <h3 className="text-xl font-semibold mb-4" style={{ color: 'var(--bsa-red)' }}>
                 Interactive Demonstration Ideas
               </h3>
@@ -137,7 +137,7 @@ export default function LessonPlanPage() {
             </AnimatedListItem>
 
             {/* Preparation Tips */}
-            <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.6}>
+            <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.6}>
               <h3 className="text-xl font-semibold mb-4" style={{ color: 'var(--bsa-red)' }}>
                 Lesson Preparation Tips
               </h3>
@@ -166,7 +166,7 @@ export default function LessonPlanPage() {
             </AnimatedListItem>
 
             {/* Age-Appropriate Content */}
-            <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.8}>
+            <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.8}>
               <h3 className="text-xl font-semibold mb-4" style={{ color: 'var(--bsa-red)' }}>
                 Making Content Age-Appropriate
               </h3>
@@ -202,7 +202,7 @@ export default function LessonPlanPage() {
             </AnimatedListItem>
 
             {/* Assessment */}
-            <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.0}>
+            <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.0}>
               <h3 className="text-xl font-semibold mb-4" style={{ color: 'var(--bsa-red)' }}>
                 How You&apos;ll Be Evaluated
               </h3>

@@ -42,13 +42,13 @@ export default function CareerPathsPage() {
                   <h3 className="text-xl font-semibold mb-4">AI is Already in Many Jobs</h3>
                   <strong>Office Workers:</strong> People in offices use AI to write emails faster, create presentations, analyze data, and schedule meetings. AI helps them be more productive and focus on creative problem-solving.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.1}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.1}>
                   <strong>Teachers:</strong> Teachers use AI to create lesson plans, grade assignments, and help students who need extra practice. AI tutoring programs can give personalized help to students 24/7.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.2}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.2}>
                   <strong>Doctors and Nurses:</strong> Medical professionals use AI to help diagnose diseases, read X-rays, and track patient health. AI can spot patterns that human eyes might miss.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.3}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.3}>
                   <strong>Farmers:</strong> Modern farmers use AI-powered drones to monitor crops, robots to plant and harvest, and smart systems to know exactly when plants need water or nutrients.
                 </AnimatedListItem>
               </ul>
@@ -61,16 +61,16 @@ export default function CareerPathsPage() {
               <h3 className="text-xl font-semibold mb-4 color-white">Careers Built Around AI</h3>
                   <strong>AI Engineer/Programmer:</strong> These are the people who actually build AI systems. They write the code that teaches computers how to think and learn. It&rsquo;s like being an architect, but for digital brains!
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.5}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.5}>
                   <strong>Data Scientist:</strong> Think of them as detectives who solve mysteries using huge amounts of information. They help AI systems learn by finding patterns in data that humans might never notice.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.6}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.6}>
                   <strong>AI Trainer:</strong> Just like you might train a dog to sit or fetch, AI trainers teach AI systems how to recognize pictures, understand speech, or play games. They make sure AI behaves properly and safely.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.7}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.7}>
                   <strong>Robot Designer:</strong> These creative engineers design robots that can help in hospitals, explore space, or even clean your house. They combine AI &ldquo;brains&rdquo; with mechanical &ldquo;bodies.&rdquo;
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={0.8}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={0.8}>
                   <strong>AI Ethics Specialist:</strong> These important professionals make sure AI is used fairly and safely. They&rsquo;re like referees who make sure everyone plays by the rules and that AI helps all people equally.
                 </AnimatedListItem>
               </ul>
@@ -83,10 +83,10 @@ export default function CareerPathsPage() {
                   <h3 className="text-xl font-semibold mb-4 color-white">Creative Careers Using AI</h3>
                   <strong>AI Content Creator:</strong> These creative professionals use AI to help make videos, write stories, design graphics, and create music. They blend human creativity with AI&rsquo;s speed and capabilities.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.0}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.0}>
                   <strong>UX Designer for AI:</strong> These designers figure out how to make AI easy and fun to use. They decide where buttons go, what colors to use, and how AI should &ldquo;talk&rdquo; to people.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.1}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.1}>
                   <strong>AI Translator:</strong> While AI can translate languages, human experts are still needed to make sure the translations sound natural and capture the real meaning, especially for important documents or creative writing.
                 </AnimatedListItem>
               </ul>
@@ -104,13 +104,13 @@ export default function CareerPathsPage() {
               <h3 className="text-xl font-semibold mb-4">Skills That Matter for AI Careers</h3>
                   <strong>Problem-Solving:</strong> Being able to break big problems into smaller pieces and think of creative solutions is super valuable in AI work.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.3}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.3}>
                   <strong>Communication:</strong> You need to explain complex AI concepts to people who aren&rsquo;t tech experts. Being able to teach and communicate clearly is crucial.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.4}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.4}>
                   <strong>Curiosity:</strong> AI is always changing and improving. People who love to learn new things and ask &ldquo;what if?&rdquo; do really well in AI careers.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.5}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.5}>
                   <strong>Teamwork:</strong> AI projects usually involve lots of different experts working together—programmers, designers, subject matter experts, and more.
                 </AnimatedListItem>
               </ul>
@@ -123,13 +123,13 @@ export default function CareerPathsPage() {
                   <h3 className="text-xl font-semibold mb-4">How to Prepare for AI Careers</h3>
                   <strong>Stay Curious:</strong> Use AI tools like ChatGPT, experiment with AI art generators, and try programming games like Scratch to understand how technology works.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.7}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.7}>
                   <strong>Practice Communication:</strong> Work on explaining complicated ideas in simple ways. This skill is valuable whether you&rsquo;re training AI or helping others understand it.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.8}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.8}>
                   <strong>Learn the Basics:</strong> You don&rsquo;t need to be a coding expert right away, but understanding basic computer skills and logical thinking will help in any AI-related career.
                 </AnimatedListItem>
-                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-white/20" delay={1.9}>
+                <AnimatedListItem className="z-20 p-6 rounded-[1em] backdrop-blur-sm bg-black/30" delay={1.9}>
                   <strong>Think About Ethics:</strong> Practice thinking about fairness, kindness, and doing the right thing. These values are essential as AI becomes more powerful.
                 </AnimatedListItem>
               </ul>
