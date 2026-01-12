@@ -4,13 +4,15 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint",
-    "build:static": "next build",
-    "deploy": "npm run build:static && node deploy.js",
-    "deploy:only": "node deploy.js"
+    "dev": "source ~/.nvm/nvm.sh && nvm use 20 && next dev",
+    "build": "source ~/.nvm/nvm.sh && nvm use 20 && next build",
+    "start": "source ~/.nvm/nvm.sh && nvm use 20 && next start",
+    "lint": "source ~/.nvm/nvm.sh && nvm use 20 && eslint",
+    "build:static": "source ~/.nvm/nvm.sh && nvm use 20 && next build",
+    "deploy": "source ~/.nvm/nvm.sh && nvm use 20 && npm run build:static && node deploy-sftp.js",
+    "deploy:ftp": "source ~/.nvm/nvm.sh && nvm use 20 && npm run build:static && node deploy.js",
+    "deploy:only": "source ~/.nvm/nvm.sh && nvm use 20 && node deploy-sftp.js",
+    "deploy:ftp:only": "source ~/.nvm/nvm.sh && nvm use 20 && node deploy.js"
   },
   "dependencies": {
     "framer-motion": "^12.23.26",
@@ -27,6 +29,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.0.10",
     "ftp-deploy": "^2.4.7",
+    "ssh2-sftp-client": "^10.0.3",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

@@ -18,7 +18,7 @@ const config = {
     host: "ftp.graphnick.com",
     port: 21,
     localRoot: path.join(__dirname, "out"),
-    remoteRoot: "/nthpowered/ai-merit-badge/",
+    remoteRoot: "/public_html/ai-merit-badge/",
     include: ["*", "**/*"],
     exclude: [
         "dist/**/*.map",
@@ -28,7 +28,11 @@ const config = {
     ],
     deleteRemote: false, // Set to true if you want to delete files on server that don't exist locally
     forcePasv: true,
-    sftp: false
+    sftp: false,
+    // Additional connection settings to handle proxy/firewall issues
+    connTimeout: 60000, // 60 seconds
+    pasvTimeout: 60000, // 60 seconds
+    keepalive: 10000   // 10 seconds
 };
 
 // Validate environment variables
@@ -44,6 +48,10 @@ if (!process.env.FTP_USER || !process.env.FTP_PASSWORD) {
 console.log('🚀 Starting FTP deployment...');
 console.log(`📁 Uploading from: ${config.localRoot}`);
 console.log(`🌐 Uploading to: ${config.host}${config.remoteRoot}`);
+console.log(`👤 User: ${config.user}`);
+
+// Test FTP connection first
+console.log('🔍 Testing FTP connection...');
 
 ftpDeploy.deploy(config)
     .then(res => {
@@ -51,7 +59,17 @@ ftpDeploy.deploy(config)
         console.log(`📊 Files uploaded: ${res.length}`);
     })
     .catch(err => {
-        console.error('❌ Deployment failed:', err);
+        console.error('❌ Deployment failed with error:', err.message);
+        console.error('🔧 Error details:', err);
+        
+        // Provide troubleshooting suggestions
+        console.log('\n🛠️  Troubleshooting suggestions:');
+        console.log('1. Check your FTP credentials in the .env file');
+        console.log('2. Verify the remote directory exists: /public_html/ai-merit-badge/');
+        console.log('3. Try connecting with an FTP client (like FileZilla) to test credentials');
+        console.log('4. Check if your hosting provider requires a different port or SFTP');
+        console.log('5. Some hosts block certain IP ranges or require whitelisting');
+        
         process.exit(1);
     });
 
