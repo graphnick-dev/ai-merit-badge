@@ -10,11 +10,16 @@ dotenv.config();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+console.log(process.env.FTP_HOST);
+console.log(process.env.FTP_USER);
+console.log(process.env.FTP_PASSWORD? '[REDACTED]' : 'No password found');
+console.log(process.env.FTP_ROOT);
+
 const sftp = new Client();
 
 // SFTP configuration
 const config = {
-    host: 'ftp.graphnick.com',
+    host: process.env.FTP_HOST,
     username: process.env.FTP_USER,
     password: process.env.FTP_PASSWORD,
     port: 22, // Standard SFTP port
@@ -24,7 +29,7 @@ const config = {
 };
 
 const localRoot = path.join(__dirname, "out");
-const remoteRoot = "/public_html/ai-merit-badge/";
+const remoteRoot = process.env.FTP_ROOT;
 
 // Validate environment variables
 if (!process.env.FTP_USER || !process.env.FTP_PASSWORD) {

@@ -22,10 +22,11 @@ body {
   line-height: 1.5;
    background: var(--background);
   color: var(--foreground);
+  overflow: hidden
 }
 
 main {
-  max-height: 100dvh;
+  max-height: 100vh;
   overflow: hidden;
   font-size: 36px;
 }
@@ -43,6 +44,7 @@ h2 {
 
 .content-overlay {
   overflow-y: auto;
+  max-height: 100dvh;
 }
 
 

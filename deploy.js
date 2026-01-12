@@ -18,7 +18,7 @@ const config = {
     host: "ftp.graphnick.com",
     port: 21,
     localRoot: path.join(__dirname, "out"),
-    remoteRoot: "/public_html/ai-merit-badge/",
+    remoteRoot: process.env.FTP_ROOT,
     include: ["*", "**/*"],
     exclude: [
         "dist/**/*.map",
