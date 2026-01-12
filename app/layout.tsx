@@ -19,7 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="antialiased bg-zinc-50 dark:bg-black">
         <div className="flex min-h-screen">
-          <aside className="w-64 bg-white dark:bg-zinc-900 p-4 border-r border-zinc-200 dark:border-zinc-800 hidden md:block">
+          <aside className="w-48 bg-white dark:bg-zinc-900 p-4 border-r border-zinc-200 dark:border-zinc-800 hidden md:block">
             <CurriculumNav />
           </aside>
           <main className="flex-1">
